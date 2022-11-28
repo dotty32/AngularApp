@@ -1,0 +1,63 @@
+<body>
+<div class ="row">
+	<div class="col-md-6 mx-auto p-0">
+		<div class="card">
+<div class="login-box">
+	<div class="login-snip">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Connexion</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">S'inscrire</label>
+		<div class="login-space">
+			<div class="login">
+				<div class="group">
+					<label for="user" class="label">Email</label>
+					<input id="user" type="text" class="input"  placeholder="Entrer votre Email" name="mail">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Mot de passe</label>
+					<input id="pass" type="password" class="input" data-type="password" placeholder="votre mot de passe" name="password">
+				</div>
+			
+				<div class="group">
+					<input type="submit" class="button" value="Se Connecter" (click)="login()">
+				</div>
+				<div class="hr"></div>
+				<div class="foot">
+					<a href="#">Mot de passe oublié ?</a>
+				</div>
+			</div>
+			<div class="sign-up-form">
+				<div class="group">
+					<label for="user" class="label">Votre nom</label>
+					<input id="user" type="text" class="input" name="name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Mot de passe</label>
+					<input id="pass" type="password" class="input" data-type="password" name="mdp" >
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repéter mot de passe</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Email</label>
+					<input id="pass" type="text" class="input" name="mail" >
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Tel</label>
+					<input id="pass" type="text" class="input" name="tel">
+				</div>
+				<div class="group">
+					<input type="button" class="button" value="S'inscrire" (click)="register()">
+				</div>
+				<div class="hr"></div>
+				<div class="foot">
+					<label for="tab-1">Déjà inscrit ?</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>   
+</div>
+</div>
+</div>
+</body>

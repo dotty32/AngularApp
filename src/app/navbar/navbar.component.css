@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #013a5f;
+}
+.navbar-links ul{
+    list-style: none;
+    display: flex;
+margin: 0;
+padding: 0;
+}
+.img{
+    height: 50px;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 1rem;
+    font-size: 20px;
+}
+.navbar-links li a:hover{
+    color:#519cce;
+}
+.title{
+    color:white;
+    font-size: 24px;
+}
+#logout{
+    cursor: pointer;
+}
+#admin{
+    display: none;
+}

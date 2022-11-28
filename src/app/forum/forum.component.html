@@ -1,0 +1,28 @@
+<div class="container-fluid mt-100">
+<div class="row">
+    <div class="col-md-12">
+        <button class="btn btn-success" id="add" routerLink="add">Ajouter</button>
+    </div>
+</div>
+    <div class="row" *ngFor="let post of Posts">
+        <div class="col-md-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <div class="media flex-wrap w-100 align-items-center">
+                        <div class="media-body ml-3"> <a href="#">{{post.userName }}</a>
+                        </div>
+                        <div class="text-muted small ml-3">
+                            <div>Date: <strong>{{post.created | slice:0:10}}</strong></div>
+                            <div><strong>{{post.posts}}</strong> posts</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p> {{post.content}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

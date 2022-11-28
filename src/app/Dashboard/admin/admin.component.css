@@ -1,0 +1,24 @@
+.btn{
+    float: right;
+    background-color: #013A5F;
+    color:white;
+    margin-left:8px;
+    margin-bottom: 5px;
+}
+h2{
+    color: red;
+}
+h4,table{
+    color:#013A5F;
+}
+table{
+    text-align: center;
+    vertical-align: middle;
+}
+th{
+    font-weight: bold;
+    font-size: 19px;
+}
+td{
+    font-size:17px;
+}

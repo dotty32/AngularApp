@@ -1,0 +1,31 @@
+<div class="container my-5">
+    <h2 class="mb-3">Vous êtes connecté en tant qu'Administrateur</h2>
+    <h4 id="cl" class="mb-3">Liste des Utilisateurs</h4>
+   <input id="add" type="button" class="btn" value="Ajouter un utilisateur" routerLink="adduser">
+<input type="button" class="btn" value="Consulter les messages" routerLink="messages">
+    <table class="table  table-bordered">
+    <thead>
+    <tr>
+    <th>N°</th>
+    <th>Nom</th>
+    <th>Tel</th>
+    <th>Email</th>
+    <th>Role</th> 
+    <th>Détails</th>
+    </tr>
+    </thead>
+    <tbody>
+     <tr >
+       <ng-container>
+        <td>0</td>
+        <td>Mohamed</td>
+        <td>123456789</td>
+        <td>mohamed@mail.com</td>
+        <td>Client</td>
+       <td><a [routerLink]="['/admin','edituser','0']">Consulter</a></td>
+    </ng-container>
+     </tr>
+    </tbody>
+    </table>
+    </div>
+    

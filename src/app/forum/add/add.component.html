@@ -1,0 +1,16 @@
+<form (submit)="submit()">
+<div class="container mb-3">
+    <div class="container mb-3 w-50">
+    <h3>Nouveau Post</h3>
+    <div class="mb-3">
+        <label class="form-label">Sujet</label>
+        <input type="text" class="form-control" name="nom"  [(ngModel)]="subject">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Content</label>
+        <input type="text" class="form-control" name="nom"  [(ngModel)]="content">
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+</div>
+</form>

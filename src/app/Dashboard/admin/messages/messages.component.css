@@ -1,0 +1,8 @@
+h4,th{
+    color: rgb(6, 4, 109);
+}
+th,td{
+ vertical-align: middle;
+ text-align: center; 
+ font-size: 22px;
+}
